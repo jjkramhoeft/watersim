@@ -1,0 +1,13 @@
+{
+  "name": "watersim",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A real-time voxel water sandbox simulated on the GPU with WebGPU.",
+  "type": "module",
+  "scripts": {
+    "dev": "node tools/serve.mjs 5173",
+    "check": "node tools/bench.mjs --seconds 3 --probes 2,5 --assert",
+    "bench": "node tools/bench.mjs"
+  },
+  "license": "MIT"
+}
