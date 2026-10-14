@@ -187,7 +187,7 @@ export const DEFAULT_SETTINGS = {
   water: 'ocean',
   env: 'studio',
   colorMode: 'theme',
-  cubeSize: 1,
+  cubeSize: 0.6,
   tumble: true,
   foam: true,
   shadows: true,
